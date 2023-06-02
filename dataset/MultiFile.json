@@ -20,7 +20,8 @@
 					"type": "Expression"
 				},
 				"container": "multifileinput"
-			}
+			},
+			"sheetIndex": 0
 		},
 		"schema": []
 	}
