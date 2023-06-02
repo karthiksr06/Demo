@@ -1,0 +1,20 @@
+{
+	"name": "Destination01",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "destination.xlsx",
+				"container": "output"
+			},
+			"sheetIndex": 0
+		},
+		"schema": []
+	}
+}
