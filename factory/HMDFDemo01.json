@@ -1,0 +1,9 @@
+{
+	"name": "HMDFDemo01",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "fbe761db-bc11-4cbb-bad7-8f47d518c493",
+		"tenantId": "d26ed0aa-92b7-463a-9742-fc9ac5335feb"
+	}
+}
