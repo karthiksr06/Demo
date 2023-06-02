@@ -15,13 +15,8 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": {
-					"value": "@dataset().fileName",
-					"type": "Expression"
-				},
 				"container": "multifileinput"
-			},
-			"sheetIndex": 0
+			}
 		},
 		"schema": []
 	}
