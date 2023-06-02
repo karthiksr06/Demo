@@ -16,7 +16,8 @@
 			"location": {
 				"type": "AzureBlobStorageLocation",
 				"container": "multifileinput"
-			}
+			},
+			"sheetIndex": 0
 		},
 		"schema": []
 	}
