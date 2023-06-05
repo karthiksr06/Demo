@@ -34,7 +34,7 @@
 				"     wildcardPaths:['*.xlsx']) ~> source1",
 				"source1 sink(allowSchemaDrift: true,",
 				"     validateSchema: false,",
-				"     partitionFileNames:['output.json'],",
+				"     partitionFileNames:['output.xlsx'],",
 				"     skipDuplicateMapInputs: true,",
 				"     skipDuplicateMapOutputs: true,",
 				"     partitionBy('hash', 1)) ~> sink1"
